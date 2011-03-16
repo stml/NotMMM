@@ -1,9 +1,30 @@
+d_emotion: {
+    [API: Weavrs];
+    [query: TopEmotion];
+	}
+
 # Netflix query. 
 # Bit complicated, as you need to get a title's id first, then query the details from that
 # As searching on a restricted list, could prestore the ids. Anyway.
 # This is the simplified version 
-movie {
+d_film {
 	[API: Netflix/titles/movies]
-	[query: "{{ r_conspiracy_movie }}"]
+	[query: r_conspiracy_movie]
 	[store: title, release_year, genre, cast, director, box_art_large, related_titles]
+	}
+d_castmember {
+	# Not sure what goes here, but want to pull someone at random off {{ d_film.cast }}
+	}
+	
+d_filmtheme {
+	[API: Weavrs];
+    [wikisplash: d_film.title];
+	}
+d_filmtheme_music {
+	[API: lastfm];
+    [query: d_filmtheme];
+	}
+d_filmtheme_picture {
+	[API: Flickr];
+    [wikisplash: d_filmtheme];
 	}

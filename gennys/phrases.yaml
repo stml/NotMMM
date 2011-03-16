@@ -52,3 +52,16 @@ p_i_cant_shake_it: {
 	"I can't be the only one";
 	"I'm sure it's just in my head, but"
 	}
+# can genny's be recursive / access constants in this way
+p_the_most_important {
+	"it's the most important movie in the world";
+	"it's the most important movie of the last... well, ever";
+	"it's incredibly important";
+	"it's the key to everything";
+	"it's a supreme piece of film-making";
+	"the best thing {{ d_movie.director }} has ever made";
+	"the best work of {{ d_castmember }}'s career";
+	"the film {{ d_movie.director }} should be remembered for";
+	"the film {{ d_castmember }} should be remembered for";
+	"the first film that really made me think, you know"
+	}

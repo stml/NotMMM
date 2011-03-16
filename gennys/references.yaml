@@ -1,6 +1,8 @@
 # Note: these gennys are *constants*, meaning that, once generated, they are the same throughout the story
 
-r_conspiracy_movie: {
+# This should be a random movie. But let's start with these, for atmosphere, and see how it turns out
+
+r_film: {
 	"The Truman Show";
 	"The Conversation";
 	"Enemy of the State";
