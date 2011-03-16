@@ -1,0 +1,54 @@
+p_a_while: {
+	"a while";
+	"some time";
+	"too long";
+	"too much time";
+	}
+p_its_been_quiet_around_here: {	
+	"It's been quiet around here";
+	"I haven't blogged much of consequence lately.";
+	"I haven't been putting myself out there";
+	"I haven't said much for a bit";
+	"It's been... hard";
+	"I haven't been myself";
+	"I haven't been feeling myself";
+	"I haven't been paying attention";
+	"I've been distracted";
+	"I've had a lot on. Going on";
+	"Too much stuff on"
+	}
+p_i_dont_know {
+	"I don't know if I can talk about this";
+	"I don't know if I can just talk about this";
+	"I don't know if I can blog about this";
+	"I don't know if I can just... blog about this";
+	"I'm not sure this is the place";
+	"I'm not sure this is the right place to talk about this";
+	"It's probably not important anyway";
+	"It's probably nothing";
+	"maybe I'm just going crazy";
+	"perhaps you should ignore me"
+	}
+p_some_time: {
+	"some weeks";
+	"some months";
+	"a few weeks";
+	"a few months";
+	"a couple of weeks";
+	"a couple of months";
+	"several weeks";
+	"several months";
+	"a while";
+	"some time";
+	}
+p_i_cant_shake_it: {
+	"I can't shake it";
+	"It's sort of there all the time";
+	"It's just there";
+	"It's always at the back of my mind";
+	"It's like it's following me";
+	"It's spooky";
+	"I almost dream it";
+	"I can't be the only one";
+	"I'm sure it's just in my head, but"
+	}

@@ -1,0 +1,39 @@
+t_well: {	
+	"Well",
+	"See",
+	"You know",
+	"I..."
+	}
+t_ok: {
+	"OK";
+	"All right";
+	"Right";
+	"Let's see";
+	"Hmm";
+	"Where to begin";
+	"So";
+	"...";
+	}
+t_odd: {
+	"odd";
+	"weird";
+	"strange";
+	"uncanny";
+	"bizarre";
+	"uncomfortable";
+	"queer";
+	"funny";
+	"crazy";
+	"uncommon";
+	}
+t_feeling: {
+	"feeling";
+	"awareness";
+	"inkling";
+	"notion";
+	"hunch";
+	"suspicion";
+	"sense";
+	"thought";
+	"idea";
+	}

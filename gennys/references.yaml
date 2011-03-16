@@ -1,0 +1,25 @@
+# Note: these gennys are *constants*, meaning that, once generated, they are the same throughout the story
+
+r_conspiracy_movie: {
+	"The Truman Show";
+	"The Conversation";
+	"Enemy of the State";
+	"The X-Files";
+	"Three Days of the Condor";
+	"The Manchurian Candidate";
+	"Blow Out";
+	"The Man Who Knew Too Much";
+	"The Bourne Supremacy";
+	"Touch of Evil";
+	"Kiss Me Deadly";
+	"L.A. Confidential"'
+	"All The President's Men";
+	"North by Northwest";
+	"Chinatown";
+	"The Game";
+	"They Live";
+	"Soylent Green";
+	"Capricorn One";
+	"The Matrix";
+	"Marathon Man";
+	}

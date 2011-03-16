@@ -1,0 +1,9 @@
+# Netflix query. 
+# Bit complicated, as you need to get a title's id first, then query the details from that
+# As searching on a restricted list, could prestore the ids. Anyway.
+# This is the simplified version 
+movie {
+	[API: Netflix/titles/movies]
+	[query: "{{ r_conspiracy_movie }}"]
+	[store: title, release_year, genre, cast, director, box_art_large, related_titles]
+	}
