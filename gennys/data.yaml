@@ -15,6 +15,12 @@ d_film {
 d_castmember {
 	# Not sure what goes here, but want to pull someone at random off {{ d_film.cast }}
 	}
+	
+d_trailer {	
+	[API: Youtube]
+	[query: {d_film.title, 'trailer'}]
+	[store: embed]
+	}
 
 # collection of gennys for wikisplashing a film title and getting some music and an image connected with that	
 d_filmtheme: {
