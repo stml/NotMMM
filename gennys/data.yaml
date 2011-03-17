@@ -1,6 +1,6 @@
 d_emotion: {
-    [API: Weavrs];
-    [query: TopEmotion];
+    [API: Weavrs]
+    [query: TopEmotion]
 	}
 
 # Netflix query. 
@@ -15,16 +15,23 @@ d_film {
 d_castmember {
 	# Not sure what goes here, but want to pull someone at random off {{ d_film.cast }}
 	}
+
+# collection of gennys for wikisplashing a film title and getting some music and an image connected with that	
+d_filmtheme: {
+	[API: Weavrs]
+    [wikisplash: d_film.title]
+	}
+d_filmtheme_music: {
+	[API: lastfm]
+    [query: d_filmtheme]
+	}
+d_filmtheme_picture: {
+	[API: Flickr]
+    [wikisplash: d_filmtheme]
+	}
 	
-d_filmtheme {
-	[API: Weavrs];
-    [wikisplash: d_film.title];
-	}
-d_filmtheme_music {
-	[API: lastfm];
-    [query: d_filmtheme];
-	}
-d_filmtheme_picture {
-	[API: Flickr];
-    [wikisplash: d_filmtheme];
+d_book: {
+	[API: Google Book Search]
+	[query: d_filmtheme]
+	[store: author, title, description, cover, preview]
 	}

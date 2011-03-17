@@ -37,3 +37,33 @@ t_feeling: {
 	"thought";
 	"idea";
 	}
+t_quite: {
+	"quite";
+	"pretty";
+	"very";
+	"fairly";
+	"reasonably";
+	"truly";
+	"highly";
+	"notably";
+	"vastly";
+	"remarkably";
+	"noticeably";
+	"considerably";
+	"decidedly";
+	"deeply";
+	}
+t_seminal: {	
+	"seminal";
+	"important";
+	"critical";
+	"famous";
+	"effective";
+	"majestic";
+	"powerful";
+	"preeeminent";
+	"remarkable";
+	"superior";
+	"well-known";
+	"grand";
+	}
