@@ -38,6 +38,31 @@ d_filmtheme_picture: {
 	
 d_book: {
 	[API: Google Book Search]
-	[query: d_filmtheme]
+	[query: d_filmtheme, Fiction]
 	[store: author, title, description, cover, preview]
 	}
+# Google Book Search geocodes book locations: pick one of these at random
+d_bookplace: {
+	[API: Google Book Search]
+	[query: d_filmtheme, locations]
+	}
+d_bookplacesnippet: {
+	[API: Google Book Search]
+	[query: {d_book, d_bookplace}]
+	[store: snippet]	
+	}
+	
+# maths?
+d_halfage: {
+	[API: Weavrs]
+    [query: Age]
+    [return: (Age / 2)]
+	}
+	
+# WorkLocation - the place the Weavr goes every day in the settings?
+d_readingplace {
+	[API: Weavrs, Foursquare]
+	[query: cafe, WorkLocation]
+	[store: name, address, map]
+	}
+

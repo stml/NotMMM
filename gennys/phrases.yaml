@@ -53,7 +53,7 @@ p_i_cant_shake_it: {
 	"I'm sure it's just in my head, but"
 	}
 # can gennys be recursive / access constants in this way?
-p_the_most_important {
+p_the_most_important: {
 	"it's the most important movie in the world";
 	"it's the most important movie of the last... well, ever";
 	"it's incredibly important";
@@ -65,11 +65,33 @@ p_the_most_important {
 	"the film {{ d_castmember }} should be remembered for";
 	"the first film that really made me think, you know"
 	}
-p_were_talking_about {
+p_were_talking_about: {
 	"we're talking about";
 	"I was talking about";
 	"what we're talking about";
 	"since we're talking about";
 	"I brought up";
 	"let's repeat that";
+	}
+p_it_really_affected me: {
+	"it really affected me";
+	"it really got under my skin";
+	"it's stayed with me ever since";
+	"it changed the way I think about things";
+	"it's something I treasure
+	}
+p_you_know_what_that_means {
+	"you know what <em>that</em> means";
+	"you should know how that fits";
+	"you know that that place, too, has many resonances";
+	"you're aware of the history";
+	}
+p_more_importantly {
+	"more importantly";
+	"first and foremost";
+	"above all";
+	"above and beyond that";
+	"aside from that";
+	"alongside that";
+	"moreover";
 	}
